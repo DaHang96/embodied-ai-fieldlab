@@ -1,0 +1,34 @@
+# Local environments and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+
+# Large robotics artifacts: keep lightweight notes and links in Git
+data/
+datasets/
+checkpoints/
+models/
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Raw media and generated exports can be synced separately when needed
+content/assets/raw/
+content/assets/exports/
+*.mp4
+*.mov
+*.mkv
+*.avi
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
