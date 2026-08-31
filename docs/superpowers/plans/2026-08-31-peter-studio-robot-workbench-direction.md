@@ -205,7 +205,7 @@
   - arm-first for assistant capability;
   - hexapod as character and reach/传播 track;
   - task and flagship selection remain open;
-  - next execution entry is Guided Execution Mode for Day 1, with no automatic Day 2 or Day 8–14 generation.
+- next execution entry is Guided Execution Mode continuing from the current Day 2 state, with no automatic Day 3 or Day 8–14 generation.
 
 - [ ] **Step 3: Verify progress reflects the actual state**
 
@@ -276,4 +276,4 @@
 
 - [ ] **Step 4: Report the verified result**
 
-  Report the four modified files, the arm/hexapod division, the unchanged task-research gate, the retained Day 1–7 files, and the exact next execution entry point: Guided Execution Mode → Day 1.
+  Report the four modified files, the arm/hexapod division, the unchanged task-research gate, the retained Day 1–7 files, and the exact next execution entry point: Guided Execution Mode → continue the current Day 2 task-research state.
