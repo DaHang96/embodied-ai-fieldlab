@@ -2,16 +2,16 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** 将已确认的 Peter Studio 工作台叙事、机械臂主线、六足角色副线和漫画式内容语言纳入现有项目文档，同时保留开放任务调研、Day 1–7、Developer Experience、Portfolio 和 Guided Execution 结构。
+**Goal:** 将已确认的 Peter Studio 工作台叙事、机械臂与六足并行研究轨道、以及漫画式内容语言纳入现有项目文档，同时保留开放任务调研、Day 1–7、Developer Experience、Portfolio 和 Guided Execution 结构。
 
-**Architecture:** 采用“品牌叙事层 + 技术执行层 + 内容生产层”的最小改动方案。`README.md` 负责总定位和站点职责，`ROADMAP.md` 负责 60 天能力与双机器人分工，`CONTENT_PRODUCTION_LOOP.md` 负责视觉表达和实验后内容处理，`PROGRESS.md` 负责记录当前决策与下一步。既有 Day 1–7 只做必要的叙事对齐，不创建或展开 Day 8–14。
+**Architecture:** 采用“品牌叙事层 + 双机器人研究层 + 内容生产层”的最小改动方案。`README.md` 负责总定位和站点职责，`ROADMAP.md` 负责 60 天并行轨道与先后顺序，`CONTENT_PRODUCTION_LOOP.md` 负责两类机器人都可成为角色主体的视觉表达，`PROGRESS.md` 负责记录当前决策与下一步。既有 Day 1–7 只做必要的叙事对齐，不创建或展开 Day 8–14。
 
 **Tech Stack:** Markdown、Git；使用 PowerShell 进行只读检查和文本验证。
 
 ## Global Constraints
 
-- 机械臂必须保持为桌面 AI 助手的第一能力主线。
-- 六足机器人必须保持为角色、探索和传播副线，不改写成第一阶段的主要助手执行机构。
+- 机械臂与六足机器人必须采用并行双轨；机械臂偏操作与桌面 AI 助手研究，六足机器人偏移动、探索与角色研究。
+- 六足机器人先通过可复现的 GitHub 开源项目完成仿真或实体落地；机械臂研究同步进行，不要求立刻部署。
 - 具体生活任务和 Flagship Task 必须保持开放，由任务调研、评分和早期实验决定。
 - Peter Studio 可以借鉴漫画式个人工作台的创作感，但必须形成原创视觉语言，不复制受保护的影视 IP 资产。
 - `peterstudio.online` 负责个人制造日志和机器人工作台叙事；`bimanual.org` 负责独立的具身智能资讯与 SEO 内容。
@@ -29,7 +29,7 @@
 
 **Interfaces:**
 - Consumes: `docs/superpowers/specs/2026-08-31-peter-studio-robot-workbench-direction-design.md` 中的已确认方向。
-- Produces: 项目首页能够用一段话说明 Peter Studio、机械臂主线和六足副线，且不把候选任务写成最终结论。
+- Produces: 项目首页能够用一段话说明 Peter Studio、机械臂与六足的并行研究轨道，且不把候选任务写成最终结论。
 
 - [ ] **Step 1: Inspect the existing README sections before editing**
 
@@ -48,9 +48,10 @@
   ```markdown
   Peter Studio 是这个项目的个人机器人工作台与 Physical AI Build Log。
 
-  - 机械臂是桌面 AI 助手的能力主线；
-  - 六足机器人是角色、探索和传播副线；
-  - 两者共享 Camera、Voice、Screen、LLM/VLM、控制、日志和内容生产基础，但不要求同步开发；
+  - 机械臂与六足机器人采用并行研究轨道；
+  - 机械臂偏操作与桌面 AI 助手研究，六足机器人偏移动、探索与角色研究；
+  - 两者都可以成为 Peter Studio 的角色与传播主体；
+  - 两者共享 Camera、Voice、Screen、LLM/VLM、控制、日志和内容生产基础，但不预设固定投入比例；
   - 具体生活任务仍需经过调研和早期实验后决定。
   ```
 
@@ -61,7 +62,7 @@
   Run:
 
   ```powershell
-  rg -n "机械臂.*主线|六足.*副线|peterstudio\.online|bimanual\.org|候选|最终 Flagship|Day 8|Developer Experience|Portfolio" README.md
+  rg -n "机械臂.*(研究重点|并行)|六足.*(研究重点|并行)|peterstudio\.online|bimanual\.org|候选|最终 Flagship|Day 8|Developer Experience|Portfolio" README.md
   git diff --check -- README.md
   ```
 
@@ -100,9 +101,9 @@
   ```markdown
   ### 双机器人分工
 
-  - 机械臂：Assistant Capability Track，优先验证桌面 AI 助手的真实操作能力；
-  - 六足机器人：Character & Reach Track，优先验证角色、移动、环境探索和传播表现；
-  - Camera、Microphone、Speaker、Screen、LLM/VLM、日志和内容流程可以共享，但第一阶段工程资源优先投入机械臂。
+  - 机械臂：Manipulation & Assistant Research Track，研究桌面 AI 助手的感知、语言、操作、数据和学习闭环，也可以成为角色；
+  - 六足机器人：Locomotion & Character Research Track，先通过开源项目落地，再研究移动、探索、互动和角色扩展，也可以成为角色；
+  - Camera、Microphone、Speaker、Screen、LLM/VLM、日志和内容流程可以共享；两条线并行推进，不预设固定投入比例。
   ```
 
   Reframe any “robot body” language that could imply the hexapod is the primary assistant body. Keep the existing task-research gate, and explicitly state that the six-legged robot may be researched or prototyped without becoming a flagship assistant task.
@@ -112,7 +113,7 @@
   Run:
 
   ```powershell
-  rg -n "机械臂.*(主线|Assistant)|六足.*(副线|Character)|Camera|Microphone|Speaker|Screen|LLM|VLM|任务.*(调研|候选)|最终 Flagship|Day 8" ROADMAP.md
+  rg -n "机械臂.*(研究|并行|Assistant)|六足.*(研究|并行|Character)|Camera|Microphone|Speaker|Screen|LLM|VLM|任务.*(调研|候选)|最终 Flagship|Day 8" ROADMAP.md
   git diff --check -- ROADMAP.md
   ```
 
@@ -246,7 +247,7 @@
   foreach ($file in $required) {
     if (-not (Test-Path $file)) { throw "Missing required file: $file" }
   }
-  rg -n "Peter Studio|peterstudio\.online|bimanual\.org|机械臂.*主线|六足.*副线|漫画式分镜" README.md ROADMAP.md CONTENT_PRODUCTION_LOOP.md PROGRESS.md
+  rg -n "Peter Studio|peterstudio\.online|bimanual\.org|机械臂.*(研究|并行)|六足.*(研究|并行)|漫画式分镜" README.md ROADMAP.md CONTENT_PRODUCTION_LOOP.md PROGRESS.md
   rg -n "候选|最终 Flagship Task|任务.*调研|不.*锁定" README.md ROADMAP.md robot-arm/tasks/task-research.md robot-arm/tasks/task-selection.md
   git diff --check
   ```
