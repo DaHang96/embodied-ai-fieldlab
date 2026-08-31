@@ -1,13 +1,14 @@
 # Project Progress Dashboard
 
-> 最后更新：2026-08-28｜当前执行日：Day 1 / 60
+> 最后更新：2026-08-31｜当前执行日：Day 2 / 60
 
 ## Day
 
-- [ ] Day 01
-- 总进度：**1 / 60（启动日，尚未完成）**
-- 当前阶段：M0 项目启动
-- 今日唯一优先结果：完成项目基线与机械臂路径决策的输入收集
+- [x] Day 01
+- [ ] Day 02
+- 总进度：**1 / 60（Day 1 核心基线已完成）**
+- 当前阶段：M0 项目启动 / Day 2 硬件与任务调研
+- 今日唯一优先结果：完成候选机械臂路径和候选生活任务的证据化比较
 
 ## Robot
 
@@ -66,13 +67,37 @@
 
 | 日期 | 资产 | 路径 | 进入哪个 Case Study |
 |---|---|---|---|
+| Day 1 | 桌面环境基线照片、环境实测记录、临时实验规格 | `assets/day-01/desk-baseline.jpg` / `daily/day-01.md` / `robot-arm/setup/environment-baseline.md` | 01 Open Source Robot Deployment / 02 Developer Experience / 05 Technical Content Experiment |
 | — | 项目初始化 | `README.md` / `ROADMAP.md` | 全部 |
 
 ## 当前阻塞与决定
 
-- 阻塞：硬件型号、预算、空间、安全边界和到货时间尚未确认。
+- 阻塞：最终硬件型号、机器人 Camera 实际采集、Python/机器人依赖和候选任务研究尚未完成。
 - 决定：Day 1–2 先做约束收集和候选路径评分；在证据不足前不把购买写成已完成。
 - 风险：硬件物流/兼容性、环境依赖、内容拍摄能力、时间不足。
+
+### Peter Studio 方向决策（2026-08-31）
+
+- `peterstudio.online` 将重建为 Peter Studio 个人机器人工作台与 Physical AI Build Log，使用原创的桌面实验室、临时拼装、手写笔记、失败记录和漫画式分镜表达真实制造过程。
+- **机械臂是第一能力主线**：优先证明桌面 AI 助手能够看见、听懂、回应并安全地操作现实物体。
+- **六足机器人是角色与传播副线**：优先验证移动、环境探索、互动感和视频表现，不在第一阶段承担复杂桌面助手功能。
+- Camera、Microphone、Speaker、Screen、LLM/VLM、控制、日志和内容流程可以共享，但不要求两个机器人同步开发。
+- 具体生活任务和最终 Flagship Task 仍保持开放，继续通过任务调研、评分和早期实验决定。
+- `bimanual.org` 继续作为独立的具身智能资讯与 SEO 网站；Peter Studio 记录“我正在造什么”，而不是复制资讯站内容。
+- 下一步继续使用 Guided Execution Mode，从当前未完成的 Day 2 任务调研状态推进；不会自动生成 Day 3 或 Day 8–14。
+
+### Guided Execution 更新
+
+- Step 1 已完成：机械臂预算 2000，配件/摄像头额外预算 1000；工作日每天 2 小时、周末每天 3 小时，按满周估算约 16 小时；Remote GPU 使用实验室远程 SSH；可接受硬件等待 5 天。
+- Step 2 已完成：Windows PowerShell `nvidia-smi` 确认 NVIDIA GeForce RTX 3060 Laptop、6144 MiB 显存、驱动 561.17、驱动报告 CUDA 12.6；当时 GPU 利用率 4%。
+- Step 3 已完成：Windows 10 Home China / OS Build 26200；AMD Ryzen 7 5800H；约 16 GB RAM；C 盘约 200 GB，剩余约 21.9 GB。
+- Step 4 已完成：检测到 Integrated Camera（PnP OK）；WSL 默认版本 2；实验室远程 SSH 可用。初步采用 Windows 本地 + WSL2/Remote GPU 分工。
+- Step 5 已完成：桌面约 150 × 50 × 100 cm，木质，可固定底座；附近无墙、显示器或其他障碍物；无宠物、儿童或他人进入风险；无额外噪音或运动范围限制。
+- Step 6 已定义：临时基线实验为抓取并移动折叠后的面巾纸，必要时切换为小海绵/软布；目标是连续 5 次至少成功 3 次，每轮最多 10 次，并记录失败与人工干预。该实验不等于最终 Flagship Task。
+- Step 7 已完成：保存桌面全景基线照片；观察到实际工作区存在笔记本支架、键盘、鼠标、饮品、杂物、线缆和两侧架体，后续需要先清空并规划可重复工作区。
+- 仍未确认：WindowsDisplayVersion、CUDA Toolkit、摄像头实际采集、Python/机器人依赖、实验室 SSH 连接细节和最终硬件路径。
+- Day 1 验收：核心基线已完成；机械臂动作、机器人 Camera 采集和候选任务研究仍未完成。桌面照片已保存为 `assets/day-01/desk-baseline.jpg`，暂定 Personal Blog Write、Social Media A，SEO Website Skip。
+- Day 2 Step 1 已完成：确认当前无机械臂、无配套设备、无借用渠道；候选研究按机械臂 2000、配件/摄像头 1000、5 天等待和数据闭环约束进行。
 
 ## 更新规则
 
