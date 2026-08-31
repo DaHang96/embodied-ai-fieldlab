@@ -28,13 +28,13 @@
 
 项目不预设它最终要完成哪一种生活任务。具体任务要经过 `Desktop AI Assistant Task Research`、开源机器人案例、内容案例和早期实验后再决定。当前候选方向包括桌面整理、递取物品、内容创作辅助、桌面办公辅助、人机互动、AI + 机械臂，以及调研中发现的其他更有趣、更适合当前能力的任务。候选方向不等于最终 Flagship Task，研究记录见 [task-research.md](robot-arm/tasks/task-research.md)，最终选择记录见 [task-selection.md](robot-arm/tasks/task-selection.md)。
 
-### Peter Studio 与双机器人分工
+### Peter Studio 与双机器人并行分工
 
 `peterstudio.online` 是这个项目的个人机器人工作台与 Physical AI Build Log。它记录一个人如何从自己的桌面实验室出发，逐步打造真实存在于物理世界中的机器人伙伴。
 
-- **机械臂是 Assistant Capability Track**：优先证明桌面 AI 助手能够看见、听懂、回应并安全地操作现实物体；
-- **六足机器人是 Character & Reach Track**：优先建立角色感、移动性、环境探索、互动感和自媒体传播性；
-- 两者可以共享 Camera、Voice、Screen、LLM/VLM、控制、日志和内容生产基础，但不要求同步开发，也不把六足机器人写成第一阶段的主要助手执行机构；
+- **机械臂是 Manipulation & Assistant Research Track**：研究桌面 AI 助手如何看见、听懂、回应并安全地操作现实物体，同时也可以成为 Peter Studio 的角色与传播主体；
+- **六足机器人是 Locomotion & Character Research Track**：先通过开源项目完成仿真或实体落地，再研究移动性、环境探索、互动感和角色扩展；它同样可以成为 Peter Studio 的角色与传播主体；
+- 两者采用并行双轨，可以共享 Camera、Voice、Screen、LLM/VLM、控制、日志和内容生产基础；不预设固定投入比例，也不要求同步达到相同成熟度；
 - 具体生活任务仍然保持开放，必须经过任务调研、评分和早期实验后再决定。
 
 Peter Studio 可以借鉴漫画和电影中个人发明家工作台的创作感，但最终使用原创视觉语言：临时拼装、桌面实验室、手写笔记、零件、工具、机器人草稿、测试痕迹、失败记录、状态标签和漫画式分镜。
@@ -77,7 +77,7 @@ JARVIS、现实版贾维斯和影视 AI 助手可以作为帮助观众理解的�
 
 ### Personal Build Log 与 SEO Website
 
-`peterstudio.online` 的 Personal Build Log 属于当前机器人工作台项目，用于记录机械臂助手主线、六足机器人角色副线、Build in Public、技术实践、Developer Experience、Portfolio 和求职证据，不以 SEO 流量为目标。`bimanual.org` 是另一个独立项目，继续负责具身智能资讯、技术解释、SEO Strategy、Keyword Research、Topic Cluster、Search Console、GEO、Internal Linking、Backlinks、Programmatic SEO 和 Organic Growth。本项目只标记有充分真实证据支撑的 `SEO Website Content Opportunity`，不执行 SEO Strategy。
+`peterstudio.online` 的 Personal Build Log 属于当前机器人工作台项目，用于记录机械臂与六足机器人的并行研究、角色成长、Build in Public、技术实践、Developer Experience、Portfolio 和求职证据，不以 SEO 流量为目标。`bimanual.org` 是另一个独立项目，继续负责具身智能资讯、技术解释、SEO Strategy、Keyword Research、Topic Cluster、Search Console、GEO、Internal Linking、Backlinks、Programmatic SEO 和 Organic Growth。本项目只标记有充分真实证据支撑的 `SEO Website Content Opportunity`，不执行 SEO Strategy。
 
 ## 目录导航
 
