@@ -181,7 +181,7 @@
 ### Task 4: Record the current strategic decision and execution entry point
 
 **Files:**
-- Modify: `PROGRESS.md` — 记录当前路线决策、未决事项和下一步从 Guided Execution 的 Day 1 入口开始。
+- Modify: `PROGRESS.md` — 记录当前路线决策、未决事项和下一步从 Guided Execution 继续当前 Day 2 状态。
 
 **Interfaces:**
 - Consumes: Tasks 1–3 的最终叙事。
