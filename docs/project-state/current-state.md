@@ -9,8 +9,8 @@
 ```text
 PROJECT_STATE = ORGANIZED_EXECUTION_BASELINE
 CURRENT_STAGE = DAY_2_COMPLETE_PRE_ARRIVAL
-CANONICAL_WORKSPACE = D:\embodied-ai-v2-new\embodied-ai-fieldlab
-CURRENT_EDIT_WORKSPACE = CANONICAL_WORKSPACE
+CANONICAL_WORKSPACE = <clone-root>
+CURRENT_EDIT_WORKSPACE = <clone-root>
 DAY_2_STATUS = COMPLETE
 NODEHEXA_STATUS = PURCHASED_WAITING_FOR_ARRIVAL
 READY_FOR_DAY_3 = true
@@ -58,6 +58,8 @@ FINAL_FLAGSHIP_TASK_SELECTED = false
 ## Next Execution Entry
 
 在用户说“开始 Day 3”后，使用 `CONTENT_PRODUCTION_LOOP.md` 中的 Guided Execution Mode，一次只推进一个步骤。当前不重新选购 NodeHexa、不提前采购传感器/AI 计算设备/执行器升级，也不提前锁定最终 Robot Task。
+
+换电脑时先阅读根目录 [`PORTABILITY.md`](../../PORTABILITY.md)，完成新电脑 Smoke Test 后再继续 Day 执行。
 
 到货后执行顺序：
 

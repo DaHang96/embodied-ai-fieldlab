@@ -6,6 +6,7 @@
 2. 再读 [`PROGRESS.md`](../../PROGRESS.md) 了解已完成证据、阻塞和下一入口。
 3. 需要规划时读 [`ROADMAP.md`](../../ROADMAP.md) 和对应 `daily/day-NN.md`。
 4. 需要证据时读 `hexapod/`、`robot-arm/`、`developer-experience/` 和 `content/`。
+5. 换电脑时读根目录 [`PORTABILITY.md`](../../PORTABILITY.md)，不要假设用户级工具和硬件环境已恢复。
 
 ## 生命周期
 
@@ -27,10 +28,10 @@
 
 ## Workspace Rule
 
-当前唯一编辑入口是：
+当前电脑的主工作区是：
 
 ```text
-D:\embodied-ai-v2-new\embodied-ai-fieldlab
+当前 clone 的实际根目录
 ```
 
-`C:\Users\zhanghang\.codex\worktrees\fa68\embodied-ai-fieldlab` 仅作为待审查的旧工作副本，不继续编辑，不自动合并，不删除。
+当前 Codex worktree 仅作为待审查的旧工作副本，不继续编辑，不自动合并，不删除。换电脑后不需要复现这个 worktree 路径。

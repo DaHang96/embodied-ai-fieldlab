@@ -2,13 +2,13 @@
   "version": 1,
   "skills": {
     "blog-persona": {
-      "source": "C:\\Users\\zhanghang\\AppData\\Local\\Temp\\skill-src-blog-persona",
-      "sourceType": "local",
+      "source": "Infrasity-Labs/dev-gtm-claude-skills",
+      "sourceType": "github",
       "computedHash": "33fc7f6e13253c43fab2f555f40411b74d6305f5862853f9fd6d0e3b3c1158d5"
     },
     "writing-tech-post": {
-      "source": "C:\\Users\\zhanghang\\AppData\\Local\\Temp\\pedronauck-skills-sparse-20260902\\skills\\mine\\writing-tech-post",
-      "sourceType": "local",
+      "source": "pedronauck/skills/skills/mine",
+      "sourceType": "github",
       "computedHash": "a7d1e84c4488b52a89d369f8a5cbed905e9508f169baed12d9ef9d1967886f20"
     }
   }

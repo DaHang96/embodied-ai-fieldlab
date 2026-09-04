@@ -1,10 +1,15 @@
 # Local environments and credentials
+.temp/
+temp/
 .venv/
 venv/
 env/
 .env
 .env.*
 !.env.example
+*.local.json
+*.local.yaml
+*.local.yml
 __pycache__/
 *.py[cod]
 

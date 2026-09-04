@@ -73,6 +73,7 @@ Personal Build Log 属于当前具身机器人实践项目，用于 Build in Pub
 - [ROADMAP.md](ROADMAP.md)：60 天阶段、里程碑、旗舰项目和调整机制。
 - [CONTENT_PRODUCTION_LOOP.md](CONTENT_PRODUCTION_LOOP.md)：每日素材捕捉、真实结果复盘、发布判断和证据沉淀规则。
 - [PROGRESS.md](PROGRESS.md)：总进度 Dashboard，每天或每周更新。
+- [PORTABILITY.md](PORTABILITY.md)：换电脑恢复项目、Skills、机器人环境和 Smoke Test。
 - [docs/project-state/current-state.md](docs/project-state/current-state.md)：当前状态、唯一决策入口和工作区规则。
 - [docs/project-state/document-map.md](docs/project-state/document-map.md)：文档角色、生命周期和读取顺序。
 - [daily/](daily/)：Day 1–7 已详细设计，后续按真实进展动态生成。
