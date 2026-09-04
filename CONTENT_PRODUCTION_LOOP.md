@@ -438,7 +438,7 @@ Day N 完成以后，标记当天产生的可进入 Portfolio 的证据，并映
 
 ## Guided Execution Mode
 
-`Guided Execution Mode` 是本项目默认的 Day 执行方式，优先于一次性展示完整 Day Markdown 清单的旧方式。对话是执行入口，Markdown 是后台记录：我负责回答问题、执行操作、做真实实验、拍摄素材和汇报结果；Codex 负责检查信息、判断结果、维护项目文件和动态调整路线。
+`Guided Execution Mode` 是本项目默认的 Day 执行方式，优先于一次性展示完整 Day Markdown 清单的旧方式。对话是执行入口，Markdown 是后台记录：我负责回答问题、执行操作、做真实实验、拍摄素材和汇报结果；Codex 负责检查信息、判断结果、维护项目文件和动态调整路线。当前总目标、阶段和状态以 [`docs/project-state/current-state.md`](docs/project-state/current-state.md) 为准。
 
 ### Phase 0 — Brief
 

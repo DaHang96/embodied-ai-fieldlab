@@ -1,5 +1,7 @@
 # NodeHexa V1 Final Base Kit Procurement Audit
 
+> 记录状态：历史采购审计。顶部的推荐 SKU/价格是审计时的计划值；实际购买记录以“实际购买记录”段落和 [`hexapod/logs/2026-09-02-nodehexa-v1-purchase.md`](../logs/2026-09-02-nodehexa-v1-purchase.md) 为准。当前实际配置为套餐 B、2000mAh、含充电器、部分组装，约 ¥634。
+
 审计日期：2026-09-01
 审计范围：只判断 NodeHexa V1 基础运动套件；不研究 IMU、Camera、Raspberry Pi、Jetson 或执行器升级
 采购动作：未加购物车、未下单、未付款

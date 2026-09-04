@@ -1,6 +1,8 @@
 # V2 One-Leg Servo Prototype Selection
 
 > 状态：研究与选型，不是采购授权。本文将原版 v2 复现执行器与未来 Engineering V2 执行器分开；本阶段最多建议 3 只舵机用于一条腿原型，不购买 18 只。
+>
+> 路线边界：这是 `rookidroid/hexapod` v2 的历史/并行研究，不是当前已购买的 NodeHexa V1 套件采购依据。除非重新开启该路线，否则不据此采购舵机。
 
 ## 结论先行
 

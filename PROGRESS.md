@@ -1,5 +1,6 @@
 # Project Progress Dashboard
 
+> 当前状态权威入口：[`docs/project-state/current-state.md`](docs/project-state/current-state.md)
 > 最后更新：2026-09-04｜当前执行阶段：Day 2 已完成，NodeHexa 到货前准备 / 60
 
 ## Day
