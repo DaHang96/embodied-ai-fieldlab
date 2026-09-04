@@ -4,15 +4,15 @@
 
 60 天结束时，作品集首页能够清晰呈现：
 
-> 我不是只“了解”具身智能，而是在尝试打造一个真正存在于物理世界中的桌面 AI 助手：实际部署过开源机器人，研究过它能为日常生活完成什么任务，做过真实实验，体验过开发者上手阻力，并能把技术转化为内容、教育材料和生态策略。
+> 我不是只“了解”具身智能，而是在 60 天内真正做出并运行开源具身机器人：通过六足机器人和机械臂的实际实验，探索它们能做什么，并把过程沉淀为原创内容和作品集。
 
 ## 60 天阶段与里程碑
 
 | 阶段 | 天数 | 重点 | 退出证据 |
 |---|---:|---|---|
 | M0 项目启动 | Day 1 | 明确定位、约束、设备决策标准和证据格式 | 基线记录、候选路径评分、Day 1 资产 |
-| M1 任务调研、选型与准备 | Day 2–7 | 调研桌面 AI 助手候选任务、确认机械臂路径、同步研究六足机器人角色方向、准备环境、拆解文档和第一次内容叙事 | 候选任务研究记录、决策备忘录、环境清单、控制链路计划、2 个高潜内容进入制作 |
-| M2 真实部署 | Day 8–14 | 到货验收、安装、环境配置、第一次运动；记录全部摩擦 | First Motion 证据、安装日志、首个 DX Pain Point |
+| M1 任务调研、选型与到货前准备 | Day 2–7 | 完成 NodeHexa 基础套件决策后的到货准备、通用 Robot Task Research、机械臂研究基线和内容/作品集准备 | 采购与状态记录、到货验收清单、环境/控制链路计划、候选任务研究记录、2 个高潜内容进入制作 |
+| M2 NodeHexa 真实部署 | 后续阶段 | 到货验收、装配、环境配置、第一次运动；记录全部摩擦，并保留机械臂并行研究入口 | First Motion 证据、安装日志、首个 DX Pain Point、可复现控制记录 |
 | M3 遥操作与感知 | Day 15–21 | 理解关节/末端/坐标、相机、标定、遥操作和安全边界 | Teleoperation Demo、相机/标定记录、故障复盘 |
 | M4 数据闭环 | Day 22–30 | 设计一个现实任务，采集 demonstration，形成最小数据集 | Dataset、任务定义、评估标准、Day 30 复盘 |
 | M5 Policy 基线 | Day 31–37 | 使用现成教程或基线完成训练/推理，不为数学细节失控 | Training/Inference 记录、成功率或失败率、Expectation vs Reality 内容 |
@@ -21,28 +21,26 @@
 | M8 生态与教育资产 | Day 52–56 | 完成生态研究、Developer Experience Case Study 和教程 | 生态比较、教程 + 视频/图文、改进策略 |
 | M9 作品集与求职包装 | Day 57–60 | 打磨 5 个 Case Study、职业叙事、Demo 索引和下一步计划 | Portfolio 首页、简历素材、公开链接清单、最终复盘 |
 
-## Desktop AI Assistant 能力成长线
+## 具身机器人能力成长线
 
-60 天不是 60 个相互独立的小实验，而是一条逐渐形成助手能力的成长线：
+60 天不是 60 个相互独立的小实验，而是一条从实体基线走向感知、交互、学习和真实任务的成长线：
 
-1. **给 AI 一只手**：机械臂安装、Calibration、Teleoperation、Pick & Place 和安全的桌面动作，让它第一次能够改变真实世界。
-2. **给 AI 一双眼睛**：Camera、Image/Video、Object Observation 和 VLM 基础，让它能够看见桌面上发生了什么。
-3. **让 AI 听懂我**：Microphone、Speech Recognition、Natural Language Command 和 LLM，让用户可以用语言提出请求。
-4. **让 AI 开口说话**：Speaker、TTS 和 Feedback，让它说明自己理解了什么、准备做什么以及遇到了什么问题。
-5. **给 AI 一张脸**：Screen、Status UI、Simple Expressions 和视觉人格，让它从机械臂逐渐成为可被理解的角色。
-6. **让 AI 学会技能**：Demonstration、Dataset、Imitation Learning、Policy、VLA、Training 和 Inference，回答它能否通过示范学会新的真实任务。
+1. **让机器人真正运行**：结构、电源、固件、标定、安全和基础运动。
+2. **让机器人可观察、可调试**：日志、状态反馈、Camera、传感器、遥操作和可重复实验。
+3. **让机器人理解输入**：语音、自然语言、LLM / VLM，以及它们与真实动作之间的边界。
+4. **让机器人完成任务**：Demonstration、Dataset、Policy、Learning / VLA 和现实环境验证。
+5. **让交互变得可感知**：Speaker、Microphone、Voice、Screen、状态 UI 和视觉人格作为后续可选里程碑。
+6. **把能力与失败变成作品**：实验记录、解释型内容、Developer Experience 和 Portfolio Evidence。
 
-这条能力线服务于一个仍然开放的问题：桌面 AI 助手最终最值得学会什么，不能凭感觉预设，要由任务调研和早期实验决定。
+这条能力线服务于一个仍然开放的问题：这些机器人最终最值得完成什么任务，不能凭感觉预设，要由 `Robot Task Research` 和早期实验决定。
 
-### 双机器人并行分工与落地顺序
+## 双机器人并行分工与落地顺序
 
-本项目采用两条并行研究轨道。机械臂和六足机器人都可以成为 Peter Studio 的角色与传播主体，区别只在于它们优先研究的具身能力不同：
+- **机械臂 / Manipulation & Assistant Research Track**：研究机器人如何观察、理解输入、回应并操作现实物体；它也可以通过声音、反馈、屏幕和失败过程成为 Peter Studio 的角色。
+- **六足机器人 / Locomotion & Character Research Track**：先以 NodeHexa V1 建立可复现的实体机器人基线，再研究移动、探索、环境互动、原创外壳和角色表达；它同样可以成为 Peter Studio 的传播主体。
+- 两条路线共享 Camera、Microphone、Speaker、Screen、LLM/VLM、控制、日志、数据和内容生产基础，但不要求同步达到相同成熟度。
 
-- **机械臂：Manipulation & Assistant Research Track**。研究桌面 AI 助手的感知、语言、操作、数据和学习闭环，也可以通过人格、声音、屏幕和漫画式内容成为角色。
-- **六足机器人：Locomotion & Character Research Track**。研究移动、环境探索、互动和角色扩展，也可以通过开源复现、失败测试和原创外壳成为内容主角。
-- 两条线共享 Camera、Microphone、Speaker、Screen、LLM/VLM、控制与日志系统、实验数据和内容生产流程；不预设固定投入比例，也不要求同步达到相同成熟度。
-
-落地顺序上，先让六足机器人通过一个可复现的 GitHub 开源项目获得第一个真实机器人闭环；机械臂研究同步进行，但可以先完成生态、硬件路径、LeRobot、任务和数据闭环研究，不要求立刻完成硬件部署。六足基线跑通后，再并行拓展六足能力与机械臂实践。未来再根据实验结果决定是否让两者协作。
+当前落地顺序是：先让六足机器人完成到货、装配、上电和基础运动闭环；机械臂同时推进开源生态、硬件路径、任务研究和数据闭环准备。六足基线建立后，两条路线继续并行扩展。这个顺序是执行优先级，不代表机械臂失去主线地位。
 
 ## Local Robot + Remote GPU 架构
 
@@ -71,9 +69,9 @@ Local Inference
 Real Robot Task
 ```
 
-## Desktop AI Assistant Task Research
+## Robot Task Research
 
-`桌面 AI 助手` 是确定的总体方向，但具体生活任务要先调研和比较，再决定 2–4 个 Flagship Task。前 1–2 周允许优先做用户场景研究、开源机器人案例研究、内容案例研究和技术可行性验证。
+具体机器人任务不预先锁死。前 1–2 周允许优先做用户场景研究、开源机器人案例研究、内容案例研究和技术可行性验证，再决定是否形成 2–4 个 Flagship Task；“助手”只是其中一种可能的应用叙事。
 
 调研至少回答：
 
@@ -101,11 +99,11 @@ Real Robot Task
 
 ### 影视 AI 助手的传播参照
 
-JARVIS 等影视 AI 助手只作为传播参照，不作为项目名称。调研重点不是复制外观，而是分析观众为什么觉得它们“智能”：主动回应、记住上下文、看见环境、听懂语言、给出反馈、预测需求、操作现实世界、有声音和人格、提供视觉反馈、提醒用户犯错并与用户协作。再将其中可落地的体验优先映射到机械臂助手，同时把角色、声音、屏幕反馈和互动感扩展到六足机器人方向。
+JARVIS 等影视 AI 助手只作为传播参照，不作为项目名称。调研重点不是复制外观，而是分析观众为什么觉得它们“智能”：主动回应、记住上下文、看见环境、听懂语言、给出反馈、预测需求、操作现实世界、有声音和人格、提供视觉反馈、提醒用户犯错并与用户协作。再将其中可落地的体验映射到机械臂、Camera、LLM/VLM、Microphone、Speaker 和 Screen。
 
-### Multimodal Personality Layer
+### Optional Multimodal Interaction Layer
 
-这是后期正式里程碑，不要求现在购买硬件。它包含 Speaker、Microphone、ASR、TTS、Screen、Status UI、Simple Expressions 和 Assistant Personality。目标不是装饰机械臂，而是让用户明显感觉它是一个 AI 助手，并承担 Human-Robot Interaction 与内容表达作用。
+这是后期可选里程碑，不要求现在购买硬件。它包含 Speaker、Microphone、ASR、TTS、Screen、Status UI、Simple Expressions 和可选的人格设定。目标不是装饰机器人，而是验证多模态交互是否真正改善 Human-Robot Interaction 与内容表达；是否发展成 AI 助手体验，要由任务研究和实验结果决定。
 
 ### 动态调整规则
 
@@ -117,7 +115,7 @@ JARVIS 等影视 AI 助手只作为传播参照，不作为项目名称。调研
 
 ## Flagship Projects
 
-以下 Flagship Projects 是作品集与能力闭环，不等于预先锁定某几个具体生活任务。具体生活任务要经过 `Desktop AI Assistant Task Research` 后再进入 `Teach My Robot`、`Robot in Real Life` 等项目。
+以下 Flagship Projects 是作品集与能力闭环，不等于预先锁定某几个具体生活任务。具体任务要经过 `Robot Task Research` 后再进入 `Teach My Robot`、`Robot in Real Life` 等项目。
 
 ### Flagship 1 — I Built My First Open-Source Robot
 

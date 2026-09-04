@@ -1,5 +1,7 @@
 # Desktop AI Assistant Narrative Upgrade Implementation Plan
 
+> 历史计划：2026-09-04 已将项目总目标修正为“60 天内运行开源具身机器人并探索其能力”。本文件保留原始决策过程，不作为当前总目标或执行顺序的权威来源；当前状态请查看 `docs/project-state/current-state.md`。
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Upgrade the existing 60-day Embodied AI FieldLab documentation around the single confirmed direction of a physical Desktop AI Assistant, while keeping final life tasks open for research and early experiments.

@@ -1,37 +1,38 @@
 # Project Progress Dashboard
 
-> 最后更新：2026-08-31｜当前执行日：Day 2 / 60
+> 当前状态权威入口：[`docs/project-state/current-state.md`](docs/project-state/current-state.md)
+> 最后更新：2026-09-04｜当前执行阶段：Day 2 已完成，NodeHexa 到货前准备 / 60
 
 ## Day
 
 - [x] Day 01
-- [ ] Day 02
-- 总进度：**1 / 60（Day 1 核心基线已完成）**
-- 当前阶段：M0 项目启动 / Day 2 硬件与任务调研
-- 今日唯一优先结果：完成候选机械臂路径和候选生活任务的证据化比较
+- [x] Day 02
+- 总进度：**Day 2 已完成；当前处于 NodeHexa 到货前准备阶段**
+- 当前阶段：M1 开源机器人路线、硬件选型与准备
+- 当前唯一优先结果：完成 NodeHexa V1 到货前准备；到货后从清点、装配复核、安全上电和首次运动开始
 
 ## Robot
 
-当前路径状态：
+当前路径状态（三条执行线并行）：
 
 `Hardware Ordered` → `Hardware Arrived` → `Setup` → `Teleoperation` → `Data Collection` → `Training` → `Inference` → `Real Task`
 
-| 节点 | 状态 | 证据位置 |
+| 轨道 / 节点 | 状态 | 证据位置 |
 |---|---|---|
-| Hardware Ordered | 未开始 | `robot-arm/hardware/` |
-| Hardware Arrived | 未开始 | `robot-arm/hardware/` |
-| Setup | 未开始 | `robot-arm/setup/` |
-| Teleoperation | 未开始 | `robot-arm/experiments/` |
-| Data Collection | 未开始 | `robot-arm/experiments/` |
-| Training | 未开始 | `robot-arm/experiments/` |
-| Inference | 未开始 | `robot-arm/experiments/` |
-| Real Task | 未开始 | `robot-arm/demos/` |
+| 六足 / NodeHexa V1 — Hardware Ordered | **已完成**：用户已购买官方基础套件；套餐 B、2000mAh 电池、含充电器、部分组装 | 用户采购决策；待补订单/到货证据 |
+| 六足 / 到货前准备 | **进行中**：整理验收、装配、安全供电与首次运动流程 | `docs/project-state/phase-1-execution-realignment.md` |
+| 六足 / Hardware Arrived | 未开始 | 待到货验收记录 |
+| 六足 / Setup → First Motion | 未开始 | 待建立六足硬件记录 |
+| 六足 / Teleoperation → Real Task | 未开始 | 待建立实验记录 |
+| 机械臂 / Hardware Ordered → Real Task | 未开始 | `robot-arm/hardware/`、`robot-arm/experiments/` |
+| 内容 / PeterStudio + Social + Portfolio | **持续记录**：围绕真实机器人进展，不预设任务结论 | `content/`、`portfolio/`、`PERSONA.md` |
 
 ## Content
 
 | 指标 | 当前值 | 目标/说明 |
 |---|---:|---|
 | Ideas | 7 | Week 1 每天至少 1 个 |
+| Drafts | 1 | PeterStudio #00 已完成初稿，待事实复核与后续发布处理 |
 | Scripts | 0 | 至少把 2 个高潜选题推进到脚本/拍摄准备 |
 | Published | 0 | 不强制每天发布，优先保证真实素材 |
 | S-Level Content | 2 个已预选 | Day 7 根据真实素材确认是否进入制作 |
@@ -68,23 +69,25 @@
 | 日期 | 资产 | 路径 | 进入哪个 Case Study |
 |---|---|---|---|
 | Day 1 | 桌面环境基线照片、环境实测记录、临时实验规格 | `assets/day-01/desk-baseline.jpg` / `daily/day-01.md` / `robot-arm/setup/environment-baseline.md` | 01 Open Source Robot Deployment / 02 Developer Experience / 05 Technical Content Experiment |
+| 2026-09-03 | NodeHexa V1 基础套件采购决策 | 用户确认：套餐 B、2000mAh 电池、含充电器、部分组装；等待到货 | 01 Open Source Robot Deployment / 02 Developer Experience / 05 Technical Content Experiment |
+| 2026-09-03 | PeterStudio #00 文章初稿 | `content/ideas/2026-09-03-peter-studio-log-00-first-robot.md` | 01 Open Source Robot Deployment / 04 Embodied AI Ecosystem Research / 05 Technical Content Experiment |
+| 2026-09-04 | Phase 1 项目归并与执行重排 | 统一总目标、三条执行线、到货前状态和到货后顺序；保留旧研究路径 | `docs/project-state/phase-1-execution-realignment.md` |
 | — | 项目初始化 | `README.md` / `ROADMAP.md` | 全部 |
 
 ## 当前阻塞与决定
 
-- 阻塞：最终硬件型号、机器人 Camera 实际采集、Python/机器人依赖和候选任务研究尚未完成。
-- 决定：Day 1–2 先做约束收集和候选路径评分；在证据不足前不把购买写成已完成。
+- 当前阻塞：NodeHexa V1 尚未到货；到货验收、安装、供电、固件/控制链和首次运动尚未开始。机械臂仍未落地，Camera/AI 扩展也未进入实物验证。
+- 已完成决定：比较多个开源六足项目后，首台实体机器人选择官方 NodeHexa V1 基础套件；用户已完成购买，当前状态只能记为 Hardware Ordered，不能提前写成已到货或已运行。
+- 当前策略：NodeHexa 负责先建立可运行的具身机器人基线；机械臂继续作为并行研究路线；内容、Developer Experience 和 Portfolio 同步记录；最终任务与 AI 扩展根据真实实验结果再决定。
 - 风险：硬件物流/兼容性、环境依赖、内容拍摄能力、时间不足。
 
 ### Peter Studio 方向决策（2026-08-31）
 
-- `peterstudio.online` 将重建为 Peter Studio 个人机器人工作台与 Physical AI Build Log，使用原创的桌面实验室、临时拼装、手写笔记、失败记录和漫画式分镜表达两个机器人真实成长过程。
-- **机械臂与六足机器人采用并行双轨**：机械臂偏操作与桌面 AI 助手研究，六足机器人偏移动、探索与角色研究；两者都可以成为 Peter Studio 的角色与传播主体。
-- 六足机器人先通过可复现的 GitHub 开源项目完成仿真或实体落地；机械臂研究同步进行，先推进生态、硬件路径、任务和数据闭环研究，不要求立即部署。
-- Camera、Microphone、Speaker、Screen、LLM/VLM、控制、日志和内容流程可以共享，但不预设固定投入比例，也不要求两个机器人同步达到相同成熟度。
-- 具体生活任务和最终 Flagship Task 仍保持开放，继续通过任务调研、评分和早期实验决定。
-- `bimanual.org` 继续作为独立的具身智能资讯与 SEO 网站；Peter Studio 记录“我正在造什么”，而不是复制资讯站内容。
-- 下一步继续使用 Guided Execution Mode，从当前未完成的 Day 2 任务调研状态推进；不会自动生成 Day 3 或 Day 8–14。
+- `peterstudio.online` 将作为个人机器人工作台与 Physical AI Build Log，使用原创的桌面实验室、临时拼装、手写笔记、失败记录和漫画式分镜表达两个机器人真实成长过程。
+- **机械臂与六足机器人采用并行双轨**：机械臂偏操作与助手能力研究，六足机器人偏移动、探索与角色研究；两者都可以成为 Peter Studio 的角色与传播主体。
+- 六足机器人先通过可复现的 GitHub 开源项目完成实体落地；机械臂同步推进生态、硬件路径、任务和数据闭环研究，不要求立即部署。
+- Camera、Microphone、Speaker、Screen、LLM/VLM、控制、日志和内容流程可以共享；具体生活任务和最终 Flagship Task 仍保持开放，继续通过 `Robot Task Research`、评分和早期实验决定。
+- `bimanual.org` 继续作为独立的具身智能资讯与 SEO 网站；Peter Studio 记录“我正在造什么”，不复制资讯站的 SEO 运营工作。
 
 ### Guided Execution 更新
 
@@ -98,6 +101,8 @@
 - 仍未确认：WindowsDisplayVersion、CUDA Toolkit、摄像头实际采集、Python/机器人依赖、实验室 SSH 连接细节和最终硬件路径。
 - Day 1 验收：核心基线已完成；机械臂动作、机器人 Camera 采集和候选任务研究仍未完成。桌面照片已保存为 `assets/day-01/desk-baseline.jpg`，暂定 Personal Blog Write、Social Media A，SEO Website Skip。
 - Day 2 Step 1 已完成：确认当前无机械臂、无配套设备、无借用渠道；候选研究按机械臂 2000、配件/摄像头 1000、5 天等待和数据闭环约束进行。
+- Day 2 路线决策已完成：在多个开源六足项目中选择 NodeHexa V1 作为首台实体机器人，并购买官方基础套件；Day 2 现已完成，当前等待到货，后续从验收而不是重新选购开始。
+- Phase 1 已完成文件归并与执行重排：D 盘主项目作为唯一编辑入口；Git 分支正在通过 PR 合并远端主线，合并完成后继续执行可移植性 Smoke Test。
 
 ## 更新规则
 

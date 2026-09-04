@@ -127,7 +127,7 @@ Codex 标记是否存在 SEO Website Content Opportunity
 
 ### S
 
-非常值得单独制作，通常具备强视觉画面、明确冲突、明确结果、普通人容易理解、桌面 AI 助手获得重要能力，以及很强的连续追更价值。
+非常值得单独制作，通常具备强视觉画面、明确冲突、明确结果、普通人容易理解、机器人获得可见能力，以及很强的连续追更价值。
 
 ### A
 
@@ -207,10 +207,10 @@ Codex 标记是否存在 SEO Website Content Opportunity
 
 ## Ending / Next Episode Hook
 
-主要内容尽量形成连续成长，并始终围绕“桌面 AI 助手正在不断获得新能力”：
+主要内容尽量形成连续成长，并始终围绕“一个真实机器人正在不断获得新能力”：
 
-- “现在它终于会动了，下一步我要让它真正看见桌上的东西。”
-- “它已经能看到桌面了，下一步我要试试直接对它说：把笔给我。”
+- “现在它终于会动了，下一步我要让它真正看见环境。”
+- “它已经能看到桌面了，下一步我要测试它能不能理解一个简单指令。”
 
 ## Platform Adaptation
 
@@ -236,17 +236,16 @@ Codex 标记是否存在 SEO Website Content Opportunity
 
 ### 两条机器人内容叙事线
 
-- **机械臂 Manipulation & Assistant Research Track**：重点表达“AI 如何获得操作和助手能力”“它能否安全地帮我改变现实世界”，同时允许机械臂成为有声音、反馈、失败和性格的 Peter Studio 角色。
-- **六足机器人 Locomotion & Character Research Track**：重点表达“这个机器人角色如何看见、移动、探索或回应”，突出环境关系、互动感、开源复现、原创外壳和传播画面。
+- **机械臂 / Manipulation & Assistant Research Track**：重点表达机器人如何观察、理解输入、回应并操作现实物体；它也可以通过声音、反馈、屏幕和失败过程成为 Peter Studio 的角色。
+- **六足机器人 / Locomotion & Character Research Track**：重点表达机器人如何移动、探索、与环境互动，以及开源复现和原创外壳如何形成角色；它同样可以成为 Peter Studio 的传播主体。
 
 两条内容线可以共享工作台、Camera、Voice、Screen、LLM/VLM、控制日志和实验素材。两类机器人都可以成为角色与传播主体；内容中只需要诚实说明当前是在研究操作能力、移动能力还是交互能力，不能把尚未验证的能力包装成已完成。
 
 ## Personal Build Log / 个人项目博客
 
-Personal Build Log 属于 Peter Studio 机器人工作台项目，不是另一个 SEO 网站。它主要公开记录：
+Personal Build Log 属于当前具身机器人实践项目，不是另一个 SEO 网站。`peterstudio.online` 主要公开记录：
 
-- 机械臂桌面 AI 助手成长过程；
-- 六足机器人角色、移动和互动实验；
+- 六足机器人与机械臂的成长过程；
 - Day N 实验；
 - 开源机械臂部署；
 - Hardware、Environment、Troubleshooting；
@@ -254,7 +253,9 @@ Personal Build Log 属于 Peter Studio 机器人工作台项目，不是另一�
 - Human-Robot Interaction；
 - 每周总结和阶段性反思。
 
-它服务于 Build in Public、项目时间线、Portfolio、求职证据、技术实践记录、Developer Experience 记录，以及展示真实学习和判断过程；不以 SEO 流量为目标。
+面向 `peterstudio.online` 的文章默认加载 [PERSONA.md](PERSONA.md) 与 `skills/blog/references/personas/peterstudio-voice.json` 中的 PeterStudio Voice v1.0。`writing-tech-post` 负责技术内容、结构、证据和结论；PeterStudio Voice 负责第一人称、中文表达、幽默、自嘲和叙事温度。
+
+它服务于 Build in Public、项目时间线、Portfolio、求职证据、技术实践记录、Developer Experience 记录，以及展示真实学习和判断过程；不以 SEO 流量为目标。`bimanual.org` 是独立的具身智能资讯与 SEO 项目，不在这里执行 SEO 策略。
 
 ## Personal Blog Publishing Decision
 
@@ -288,7 +289,7 @@ Day N 完成以后，独立判断今天是否值得写一篇 Personal Blog。Soc
 - Result
 - What I Learned
 - Developer Experience
-- What This Means for My Desktop AI Assistant
+- What This Means for My Robot / Possible Assistant Direction
 - Next
 
 ### 4. Media Placement
@@ -400,7 +401,7 @@ Day N 完成以后，标记当天产生的可进入 Portfolio 的证据，并映
 - Experiment Design；
 - Failure Analysis；
 - Tutorial；
-- AI Assistant Interaction；
+- Robot Interaction 或可能的 Assistant Interaction；
 - Video Content；
 - Human-Robot Interaction。
 
@@ -423,15 +424,15 @@ Day N 完成以后，标记当天产生的可进入 Portfolio 的证据，并映
 
 所有内容优先围绕：
 
-> 打造一个真正存在于物理世界中的「桌面 AI 助手」
+> 在现实世界中做出并运行开源具身机器人，探索它们能做什么
 
 内容不要主要表达“今天我学到了什么技术”，而应该优先表达：
 
-> 今天我的桌面 AI 助手获得了什么能力？
+> 今天我的机器人获得了什么可验证的能力？
 
 或者：
 
-> 今天我发现，它距离真正能帮我做事还差什么？
+> 今天我发现，它距离完成一个真实任务还差什么？
 
 任何 Social Media Content Idea 都必须先回答：
 
@@ -454,7 +455,7 @@ Day N 完成以后，标记当天产生的可进入 Portfolio 的证据，并映
 
 ## Guided Execution Mode
 
-`Guided Execution Mode` 是本项目默认的 Day 执行方式，优先于一次性展示完整 Day Markdown 清单的旧方式。对话是执行入口，Markdown 是后台记录：我负责回答问题、执行操作、做真实实验、拍摄素材和汇报结果；Codex 负责检查信息、判断结果、维护项目文件和动态调整路线。
+`Guided Execution Mode` 是本项目默认的 Day 执行方式，优先于一次性展示完整 Day Markdown 清单的旧方式。对话是执行入口，Markdown 是后台记录：我负责回答问题、执行操作、做真实实验、拍摄素材和汇报结果；Codex 负责检查信息、判断结果、维护项目文件和动态调整路线。当前总目标、阶段和状态以 [`docs/project-state/current-state.md`](docs/project-state/current-state.md) 为准。
 
 ### Phase 0 — Brief
 
