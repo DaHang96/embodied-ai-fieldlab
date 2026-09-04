@@ -19,6 +19,17 @@
 - **六足机器人 / NodeHexa V1**：首台实体机器人，优先复现开源硬件并完成基础运动、控制链和后续扩展验证。官方基础套件已经购买，当前等待到货。
 - **机械臂**：另一条具身智能研究与实验路线，后续并行推进；具体硬件、任务和 AI 接入以早期验证为准，尚未提前锁死。
 
+### Peter Studio 与双机器人并行分工
+
+`peterstudio.online` 是这个项目的个人机器人工作台与 Physical AI Build Log。它记录一个人如何从自己的桌面实验室出发，逐步打造真实存在于物理世界中的机器人伙伴。
+
+- **机械臂是 Manipulation & Assistant Research Track**：研究机器人如何看见、听懂、回应并安全地操作现实物体，同时也可以成为 Peter Studio 的角色与传播主体；
+- **六足机器人是 Locomotion & Character Research Track**：先通过开源项目完成仿真或实体落地，再研究移动性、环境探索、互动感和角色扩展；它同样可以成为 Peter Studio 的角色与传播主体；
+- 两者采用并行双轨，可以共享 Camera、Voice、Screen、LLM/VLM、控制、日志和内容生产基础；不预设固定投入比例，也不要求同步达到相同成熟度；
+- 具体生活任务仍然保持开放，必须经过 `Robot Task Research`、评分和早期实验后再决定。
+
+Peter Studio 可以借鉴漫画和电影中个人发明家工作台的创作感，但最终使用原创视觉语言：临时拼装、桌面实验室、手写笔记、零件、工具、机器人草稿、测试痕迹、失败记录、状态标签和漫画式分镜。
+
 “桌面 AI 助手”不再是项目总目标，而是一个可选的应用方向。随着六足机器人和机械臂获得视觉、语音、语言模型、屏幕或扬声器等能力，我会根据真实实验判断哪些体验值得发展成助手，而不是先假设答案。
 
 项目持续回答三个问题：
@@ -66,7 +77,7 @@
 
 ### Personal Build Log 与 SEO Website
 
-Personal Build Log 属于当前具身机器人实践项目，用于 Build in Public、项目时间线、技术实践、Developer Experience、Portfolio 和求职证据，不以 SEO 流量为目标。Embodied AI SEO Website 属于另一个项目，负责 SEO Strategy、Keyword Research、Topic Cluster、Search Console、GEO、Internal Linking、Backlinks、Programmatic SEO 和 Organic Growth。本项目只标记有充分真实证据支撑的 `SEO Website Content Opportunity`，不执行 SEO Strategy。
+`peterstudio.online` 的 Personal Build Log 属于当前具身机器人实践项目，用于记录机械臂与六足机器人的并行研究、角色成长、Build in Public、技术实践、Developer Experience、Portfolio 和求职证据，不以 SEO 流量为目标。`bimanual.org` 是另一个独立项目，继续负责具身智能资讯、技术解释、SEO Strategy、Keyword Research、Topic Cluster、Search Console、GEO、Internal Linking、Backlinks、Programmatic SEO 和 Organic Growth。本项目只标记有充分真实证据支撑的 `SEO Website Content Opportunity`，不执行 SEO Strategy。
 
 ## 目录导航
 

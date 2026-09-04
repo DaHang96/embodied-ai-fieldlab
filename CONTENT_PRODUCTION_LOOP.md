@@ -224,9 +224,26 @@ Codex 标记是否存在 SEO Website Content Opportunity
 - **X**：适合过程、观点和技术观察；
 - **知乎**：适合问题解释、决策和复盘。
 
+## Peter Studio Visual Language
+
+`peterstudio.online` 的 Personal Build Log 采用“个人机器人工作台”的原创视觉语言。可以使用临时拼装、桌面实验室、手写笔记、零件、工具、机器人草稿、测试痕迹、失败记录、状态标签和漫画式分镜，让观众看到一个普通人边学习边造机器人的真实过程。
+
+漫画式分镜用于解释真实实验过程，而不是替代实验本身。推荐的叙事顺序是：
+
+> 问题出现 → 尝试方案 → 机器人反应 → 失败 → 修改 → 新结果
+
+每个分镜仍然要能够回到真实视频、命令、数据、错误信息和边界说明。不要为了视觉风格伪造成功、动作、对话或人机互动。
+
+### 两条机器人内容叙事线
+
+- **机械臂 / Manipulation & Assistant Research Track**：重点表达机器人如何观察、理解输入、回应并操作现实物体；它也可以通过声音、反馈、屏幕和失败过程成为 Peter Studio 的角色。
+- **六足机器人 / Locomotion & Character Research Track**：重点表达机器人如何移动、探索、与环境互动，以及开源复现和原创外壳如何形成角色；它同样可以成为 Peter Studio 的传播主体。
+
+两条内容线可以共享工作台、Camera、Voice、Screen、LLM/VLM、控制日志和实验素材。两类机器人都可以成为角色与传播主体；内容中只需要诚实说明当前是在研究操作能力、移动能力还是交互能力，不能把尚未验证的能力包装成已完成。
+
 ## Personal Build Log / 个人项目博客
 
-Personal Build Log 属于当前具身机器人实践项目，不是另一个 SEO 网站。它主要公开记录：
+Personal Build Log 属于当前具身机器人实践项目，不是另一个 SEO 网站。`peterstudio.online` 主要公开记录：
 
 - 六足机器人与机械臂的成长过程；
 - Day N 实验；
@@ -238,7 +255,7 @@ Personal Build Log 属于当前具身机器人实践项目，不是另一个 SEO
 
 面向 `peterstudio.online` 的文章默认加载 [PERSONA.md](PERSONA.md) 与 `skills/blog/references/personas/peterstudio-voice.json` 中的 PeterStudio Voice v1.0。`writing-tech-post` 负责技术内容、结构、证据和结论；PeterStudio Voice 负责第一人称、中文表达、幽默、自嘲和叙事温度。
 
-它服务于 Build in Public、项目时间线、Portfolio、求职证据、技术实践记录、Developer Experience 记录，以及展示真实学习和判断过程；不以 SEO 流量为目标。
+它服务于 Build in Public、项目时间线、Portfolio、求职证据、技术实践记录、Developer Experience 记录，以及展示真实学习和判断过程；不以 SEO 流量为目标。`bimanual.org` 是独立的具身智能资讯与 SEO 项目，不在这里执行 SEO 策略。
 
 ## Personal Blog Publishing Decision
 

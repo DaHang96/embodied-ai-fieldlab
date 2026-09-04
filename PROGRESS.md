@@ -81,6 +81,14 @@
 - 当前策略：NodeHexa 负责先建立可运行的具身机器人基线；机械臂继续作为并行研究路线；内容、Developer Experience 和 Portfolio 同步记录；最终任务与 AI 扩展根据真实实验结果再决定。
 - 风险：硬件物流/兼容性、环境依赖、内容拍摄能力、时间不足。
 
+### Peter Studio 方向决策（2026-08-31）
+
+- `peterstudio.online` 将作为个人机器人工作台与 Physical AI Build Log，使用原创的桌面实验室、临时拼装、手写笔记、失败记录和漫画式分镜表达两个机器人真实成长过程。
+- **机械臂与六足机器人采用并行双轨**：机械臂偏操作与助手能力研究，六足机器人偏移动、探索与角色研究；两者都可以成为 Peter Studio 的角色与传播主体。
+- 六足机器人先通过可复现的 GitHub 开源项目完成实体落地；机械臂同步推进生态、硬件路径、任务和数据闭环研究，不要求立即部署。
+- Camera、Microphone、Speaker、Screen、LLM/VLM、控制、日志和内容流程可以共享；具体生活任务和最终 Flagship Task 仍保持开放，继续通过 `Robot Task Research`、评分和早期实验决定。
+- `bimanual.org` 继续作为独立的具身智能资讯与 SEO 网站；Peter Studio 记录“我正在造什么”，不复制资讯站的 SEO 运营工作。
+
 ### Guided Execution 更新
 
 - Step 1 已完成：机械臂预算 2000，配件/摄像头额外预算 1000；工作日每天 2 小时、周末每天 3 小时，按满周估算约 16 小时；Remote GPU 使用实验室远程 SSH；可接受硬件等待 5 天。
@@ -94,7 +102,7 @@
 - Day 1 验收：核心基线已完成；机械臂动作、机器人 Camera 采集和候选任务研究仍未完成。桌面照片已保存为 `assets/day-01/desk-baseline.jpg`，暂定 Personal Blog Write、Social Media A，SEO Website Skip。
 - Day 2 Step 1 已完成：确认当前无机械臂、无配套设备、无借用渠道；候选研究按机械臂 2000、配件/摄像头 1000、5 天等待和数据闭环约束进行。
 - Day 2 路线决策已完成：在多个开源六足项目中选择 NodeHexa V1 作为首台实体机器人，并购买官方基础套件；Day 2 现已完成，当前等待到货，后续从验收而不是重新选购开始。
-- Phase 1 已完成文件归并与执行重排：D 盘主项目作为唯一编辑入口；Codex worktree 暂停编辑，Git 分支尚未合并。
+- Phase 1 已完成文件归并与执行重排：D 盘主项目作为唯一编辑入口；Git 分支正在通过 PR 合并远端主线，合并完成后继续执行可移植性 Smoke Test。
 
 ## 更新规则
 
